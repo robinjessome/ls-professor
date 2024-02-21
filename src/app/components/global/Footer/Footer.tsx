@@ -21,7 +21,7 @@ export default async function Footer() {
   
   return (
     <>
-      <footer className="container flex items-center justify-between text-sm p-content py-6 bg-primary-500 text-white">
+      <footer className="container flex items-center justify-between text-sm p-content py-6 bg-primary-400 text-primary-900">
         <p className="flex items-center">&copy; {year}
           {site_name && (
             <>

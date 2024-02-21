@@ -70,8 +70,12 @@
 
 }
 
+.swiper-pagination-bullet-active {
+  @apply !bg-primary-600
+}
+
 .swiper-button-prev, .swiper-button-next {
-  @apply p-8 rounded-lg bg-white/20 transition-colors
+  @apply p-8 rounded-lg bg-white/20 transition-colors !text-primary-600
 }
 
 .swiper-button-prev:hover, .swiper-button-next:hover {

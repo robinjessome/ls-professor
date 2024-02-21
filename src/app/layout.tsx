@@ -30,7 +30,7 @@ export default function RootLayout({
   return (
     
     <html lang="en" className={`${sans.variable}`}>
-      <body className="bg-primary-200 antialiased font-sans text-grey-950">
+      <body className="bg-gradient-to-br from-primary-400 to-primary-900 antialiased font-sans text-grey-600 min-h-screen">
         <main className="container">
           <Header />
           <div className="bg-white md:mb-12 pb-0 rounded shadow-xl overflow-hidden">

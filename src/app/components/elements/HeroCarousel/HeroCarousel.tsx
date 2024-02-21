@@ -43,18 +43,18 @@ export default function HeroCarousel({ slides, className } : HeroCarouselProps) 
           return (
             <SwiperSlide key={index} className='!h-auto'>
             <div className={clsx(
-              'h-full min-h-[500px] py-12 bg-gradient-to-b from-primary-800 to-primary-500',
+              'h-full min-h-[500px] py-12 bg-gradient-to-b from-primary-400 to-primary-100',
               'relative flex flex-col md:flex-row items-center',
               hasImage && slideStyle === 'Background Image' ? 'justify-end md:justify-start px-12 md:px-32' : 'justify-center',
               'gap-12 md:px-32 ',
             )}>
                
               <div className={clsx(
-                'text-white shrink-0 relative z-30 max-w-2xl',
+                'shrink-0 relative z-30 max-w-2xl',
                 !hasImage ? 
-                  'text-center w-full' : 
+                  'text-center w-full text-primary-950' : 
                   `text-center w-full md:text-left
-                    ${slideStyle === 'Background Image' ? 'md:w-3/4 lg:w-3/5' : 'md:w-2/3 lg:w-3/5'}
+                    ${slideStyle === 'Background Image' ? 'text-white md:w-3/4 lg:w-3/5' : 'md:w-2/3 lg:w-3/5 text-primary-950'}
                   `
               )}>
                 {isFilled.richText(slide.slideTitle) && (
