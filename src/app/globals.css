@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+
+  strong, b {
+    @apply font-bold
+  }
+
+
+    .p-content {
+      @apply px-6
+    }
+    .pl-content {
+      @apply pl-6 pr-0
+    }
+    .pr-content {
+      @apply pr-6 pl-6
+    }
+
+  @screen lg {
+    .p-content {
+      @apply px-8
+    }
+    .pl-content {
+      @apply pl-8 pr-0
+    }
+    .pr-content {
+      @apply pr-8 pl-0
+    }
+  }
+
+
+  /* Prose */
+
+  .prose-light a {
+    @apply text-white
+  }
+  .prose-light a:hover, .prose-light a:focus {
+    @apply text-white/80
+  }
+
+
+  .menuWrapper {
+    @apply fixed top-0 right-0 w-4/5 h-screen z-50;
+  }
+  .menuWrapper ul {
+    @apply relative bg-white h-screen z-40 ;
+  }
+  /* .menuWrapper {
+    @apply
+  } */
+  .menuWrapper.menuOpen ul {
+    @apply shadow-menu
+  }
+  .backdrop {
+    @apply fixed top-0 left-0 bg-black/60 w-screen h-screen z-30 backdrop-blur;
+  }
+
+
+  @screen md {
+    .menuWrapper {
+      @apply bg-transparent relative w-auto h-auto translate-x-0;
+    }
+    .menuWrapper ul {
+      @apply relative bg-transparent h-auto shadow-none;
+    }
+  }
+
+}
+
+.swiper-button-prev, .swiper-button-next {
+  @apply p-8 rounded-lg bg-white/20 transition-colors
+}
+
+.swiper-button-prev:hover, .swiper-button-next:hover {
+  @apply bg-white/90
+}
+.swiper-button-prev {
+  @apply pr-9
+}
+.swiper-button-next {
+  @apply pl-9
+}
+.swiper-button-prev.swiper-button-disabled, 
+.swiper-button-next.swiper-button-disabled  {
+  @apply hidden
+}
+
+.carouselDescription p {
+  @apply line-clamp-4
+}

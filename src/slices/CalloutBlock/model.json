@@ -1,0 +1,190 @@
+{
+  "id": "callout_block",
+  "type": "SharedSlice",
+  "name": "CalloutBlock",
+  "description": "CalloutBlock",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "eyebrowHeadline": {
+          "type": "Text",
+          "config": {
+            "label": "eyebrowHeadline",
+            "placeholder": "Eyebrow"
+          }
+        },
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading1,heading2,heading3,heading4,heading5,heading6,strong,em"
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "description",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,hyperlink,embed,rtl,strong,em,list-item,o-list-item"
+          }
+        },
+        "image": {
+          "type": "Image",
+          "config": {
+            "label": "image",
+            "constraint": {},
+            "thumbnails": [
+              {
+                "name": "mobile",
+                "width": 800,
+                "height": 400
+              }
+            ]
+          }
+        },
+        "callToActionLabel": {
+          "type": "Text",
+          "config": {
+            "label": "Call-to-action Label",
+            "placeholder": ""
+          }
+        },
+        "callToActionLink": {
+          "type": "Link",
+          "config": {
+            "label": "Call-to-action Link",
+            "placeholder": "",
+            "allowTargetBlank": false,
+            "select": null
+          }
+        },
+        "backgroundColour": {
+          "type": "Select",
+          "config": {
+            "label": "Background Colour",
+            "placeholder": "",
+            "options": [
+              "None",
+              "Primary - Dark",
+              "Primary - Light",
+              "Secondary - Dark",
+              "Secondary - Light",
+              "Grey - Light"
+            ],
+            "default_value": "None"
+          }
+        },
+        "fullWidth": {
+          "type": "Boolean",
+          "config": {
+            "label": "Full-width?",
+            "placeholder_false": "false",
+            "placeholder_true": "true",
+            "default_value": false
+          }
+        }
+      },
+      "items": {}
+    },
+    {
+      "id": "imageRight",
+      "name": "Image Right",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "eyebrowHeadline": {
+          "type": "Text",
+          "config": {
+            "label": "eyebrowHeadline",
+            "placeholder": "Eyebrow"
+          }
+        },
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading1,heading2,heading3,heading4,heading5,heading6,strong,em"
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "description",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,hyperlink,embed,rtl,strong,em,list-item,o-list-item"
+          }
+        },
+        "image": {
+          "type": "Image",
+          "config": {
+            "label": "image",
+            "constraint": {},
+            "thumbnails": [
+              {
+                "name": "mobile",
+                "width": 800,
+                "height": 400
+              }
+            ]
+          }
+        },
+        "callToActionLabel": {
+          "type": "Text",
+          "config": {
+            "label": "Call-to-action Label",
+            "placeholder": ""
+          }
+        },
+        "callToActionLink": {
+          "type": "Link",
+          "config": {
+            "label": "Call-to-action Link",
+            "placeholder": "",
+            "allowTargetBlank": false,
+            "select": null
+          }
+        },
+        "backgroundColour": {
+          "type": "Select",
+          "config": {
+            "label": "Background Colour",
+            "placeholder": "",
+            "options": [
+              "None",
+              "Primary - Dark",
+              "Primary - Light",
+              "Secondary - Dark",
+              "Secondary - Light",
+              "Grey - Light"
+            ],
+            "default_value": "None"
+          }
+        },
+        "fullWidth": {
+          "type": "Boolean",
+          "config": {
+            "label": "Full-width?",
+            "placeholder_false": "false",
+            "placeholder_true": "true",
+            "default_value": false
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

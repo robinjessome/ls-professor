@@ -1,0 +1,32 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"text": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Aliqua sunt officia laborum magna non sit."
+						}
+					}
+				]
+			},
+			"cta_link": {
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "https://slicemachine.dev"
+				}
+			},
+			"cta_text": {
+				"__TYPE__": "FieldContent",
+				"value": "shirt",
+				"type": "Text"
+			}
+		},
+		"items": []
+	}
+]

@@ -1,0 +1,107 @@
+{
+  "id": "site_settings",
+  "label": "Site Settings",
+  "format": "page",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Header": {
+      "site_name": {
+        "type": "Text",
+        "config": {
+          "label": "Site Name",
+          "placeholder": ""
+        }
+      },
+      "main_menu": {
+        "type": "Group",
+        "config": {
+          "label": "Main Menu",
+          "fields": {
+            "label": {
+              "type": "Text",
+              "config": {
+                "label": "Label",
+                "placeholder": ""
+              }
+            },
+            "link": {
+              "type": "Link",
+              "config": {
+                "label": "Link",
+                "placeholder": "",
+                "select": null
+              }
+            }
+          }
+        }
+      }
+    },
+    "Footer": {
+      "copyright_text": {
+        "type": "Text",
+        "config": {
+          "label": "Copyright Text",
+          "placeholder": ""
+        }
+      }
+    },
+    "Contact Info": {
+      "email_address": {
+        "type": "Text",
+        "config": {
+          "label": "Email address",
+          "placeholder": ""
+        }
+      },
+      "twitter_handle": {
+        "type": "Text",
+        "config": {
+          "label": "Twitter Handle",
+          "placeholder": ""
+        }
+      },
+      "twitter_url": {
+        "type": "Text",
+        "config": {
+          "label": "Twitter URL",
+          "placeholder": ""
+        }
+      },
+      "facebook_url": {
+        "type": "Text",
+        "config": {
+          "label": "Facebook URL",
+          "placeholder": ""
+        }
+      },
+      "linkedin_url": {
+        "type": "Text",
+        "config": {
+          "label": "LinkedIn Url",
+          "placeholder": ""
+        }
+      }
+    },
+    "SEO": {
+      "meta_description": {
+        "type": "Text",
+        "config": {
+          "label": "Meta Description",
+          "placeholder": ""
+        }
+      },
+      "meta_image": {
+        "type": "Image",
+        "config": {
+          "label": "Meta Image",
+          "constraint": {
+            "width": 1200,
+            "height": 630
+          },
+          "thumbnails": []
+        }
+      }
+    }
+  }
+}

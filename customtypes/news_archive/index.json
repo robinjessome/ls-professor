@@ -1,0 +1,92 @@
+{
+  "id": "news_archive",
+  "label": "News Archive",
+  "format": "page",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "type": "UID",
+        "config": {
+          "label": "UID",
+          "placeholder": ""
+        }
+      },
+      "title": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Title",
+          "placeholder": "Books",
+          "allowTargetBlank": false,
+          "single": "heading1"
+        }
+      },
+      "description": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Description",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "paragraph,strong,em"
+        }
+      },
+      "featured_image": {
+        "type": "Image",
+        "config": {
+          "label": "Featured Image",
+          "constraint": {
+            "width": 2400,
+            "height": 1000
+          },
+          "thumbnails": []
+        }
+      },
+      "text_color": {
+        "type": "Select",
+        "config": {
+          "label": "Text Color",
+          "placeholder": "",
+          "options": ["Light", "Dark"],
+          "default_value": "Light"
+        }
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "banner_cta": {
+              "type": "SharedSlice"
+            },
+            "spacer": {
+              "type": "SharedSlice"
+            },
+            "callout_block": {
+              "type": "SharedSlice"
+            },
+            "rich_text": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    },
+    "SEO & Metadata": {
+      "meta_title": {
+        "config": {
+          "label": "Meta Title",
+          "placeholder": "A title of the page used for social media and search engines"
+        },
+        "type": "Text"
+      },
+      "meta_description": {
+        "config": {
+          "label": "Meta Description",
+          "placeholder": "A brief summary of the page"
+        },
+        "type": "Text"
+      }
+    }
+  }
+}

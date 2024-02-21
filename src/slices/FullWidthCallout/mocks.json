@@ -1,0 +1,198 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"image": {
+				"origin": {
+					"id": "main",
+					"url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+					"width": 3882,
+					"height": 2584
+				},
+				"url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+				"width": 3882,
+				"height": 2584,
+				"edit": {
+					"zoom": 1,
+					"crop": {
+						"x": 0,
+						"y": 0
+					},
+					"background": "transparent"
+				},
+				"credits": null,
+				"alt": null,
+				"__TYPE__": "ImageContent",
+				"thumbnails": {
+					"mobile": {
+						"origin": {
+							"id": "mobile",
+							"url": "https://images.unsplash.com/photo-1587613865763-4b8b0d19e8ab",
+							"width": 12288,
+							"height": 16384
+						},
+						"url": "https://images.unsplash.com/photo-1587613865763-4b8b0d19e8ab?rect=0%2C5120%2C12288%2C6144&w=800&h=400",
+						"width": 800,
+						"height": 400,
+						"edit": {
+							"zoom": 1,
+							"crop": {
+								"x": 0,
+								"y": 5120
+							},
+							"background": "transparent"
+						},
+						"credits": null,
+						"alt": null
+					}
+				}
+			},
+			"callToActionStyle": {
+				"__TYPE__": "FieldContent",
+				"value": "Secondary - outline",
+				"type": "Select"
+			},
+			"textColour": {
+				"__TYPE__": "FieldContent",
+				"value": "Light",
+				"type": "Select"
+			},
+			"callToActionLabel": {
+				"__TYPE__": "FieldContent",
+				"value": "brass",
+				"type": "Text"
+			},
+			"callToActionLink": {
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "https://prismic.io"
+				}
+			},
+			"description": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Ullamco dolor quis nisi. Aute eiusmod enim adipisicing nulla esse aliqua aute voluptate dolor. Non proident voluptate esse nulla laborum mollit pariatur."
+						}
+					}
+				]
+			}
+		},
+		"items": []
+	},
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "imageLeft",
+		"primary": {
+			"eyebrowHeadline": {
+				"__TYPE__": "FieldContent",
+				"value": "solution",
+				"type": "Text"
+			},
+			"title": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading2",
+						"content": {
+							"text": "Surface"
+						}
+					}
+				]
+			},
+			"description": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Ipsum sunt dolor ad aliquip sint culpa qui do sint laboris deserunt ut."
+						}
+					}
+				]
+			},
+			"image": {
+				"origin": {
+					"id": "main",
+					"url": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef",
+					"width": 4000,
+					"height": 6000
+				},
+				"url": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef",
+				"width": 4000,
+				"height": 6000,
+				"edit": {
+					"zoom": 1,
+					"crop": {
+						"x": 0,
+						"y": 0
+					},
+					"background": "transparent"
+				},
+				"credits": null,
+				"alt": null,
+				"__TYPE__": "ImageContent",
+				"thumbnails": {
+					"mobile": {
+						"origin": {
+							"id": "mobile",
+							"url": "https://images.unsplash.com/photo-1471897488648-5eae4ac6686b",
+							"width": 3560,
+							"height": 5340
+						},
+						"url": "https://images.unsplash.com/photo-1471897488648-5eae4ac6686b?rect=0%2C1780%2C3560%2C1780&w=800&h=400",
+						"width": 800,
+						"height": 400,
+						"edit": {
+							"zoom": 1,
+							"crop": {
+								"x": 0,
+								"y": 1780
+							},
+							"background": "transparent"
+						},
+						"credits": null,
+						"alt": null
+					}
+				}
+			},
+			"callToActionLabel": {
+				"__TYPE__": "FieldContent",
+				"value": "careful",
+				"type": "Text"
+			},
+			"callToActionLink": {
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "http://google.com"
+				}
+			},
+			"calltoactionstyle": {
+				"__TYPE__": "FieldContent",
+				"value": "Primary - solid",
+				"type": "Select"
+			},
+			"textColour": {
+				"__TYPE__": "FieldContent",
+				"value": "Light",
+				"type": "Select"
+			},
+			"callToActionStyle": {
+				"__TYPE__": "FieldContent",
+				"value": "Primary - solid",
+				"type": "Select"
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": []
+			}
+		]
+	}
+]

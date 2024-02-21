@@ -1,0 +1,149 @@
+{
+  "id": "home_page",
+  "label": "Home Page",
+  "format": "page",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "hero_carousel": {
+        "type": "Group",
+        "config": {
+          "label": "Hero Carousel",
+          "fields": {
+            "slideTitle": {
+              "type": "StructuredText",
+              "config": {
+                "label": "Slide Title",
+                "placeholder": "",
+                "allowTargetBlank": true,
+                "single": "heading2"
+              }
+            },
+            "slideDescription": {
+              "type": "StructuredText",
+              "config": {
+                "label": "Slide Description",
+                "placeholder": "",
+                "allowTargetBlank": true,
+                "single": "strong,em"
+              }
+            },
+            "callToActionLink": {
+              "type": "Link",
+              "config": {
+                "label": "Call-to-action Link",
+                "placeholder": "",
+                "select": null
+              }
+            },
+            "callToActionLabel": {
+              "type": "Text",
+              "config": {
+                "label": "Call-to-action Label",
+                "placeholder": ""
+              }
+            },
+            "slideImage": {
+              "type": "Image",
+              "config": {
+                "label": "Slide Image",
+                "constraint": {
+                  "height": 600
+                },
+                "thumbnails": [
+                  {
+                    "name": "mobile",
+                    "width": 600,
+                    "height": 300
+                  }
+                ]
+              }
+            },
+            "slideStyle": {
+              "type": "Select",
+              "config": {
+                "label": "Slide Style",
+                "placeholder": "",
+                "options": ["Contained", "Background Image"],
+                "default_value": "Contained"
+              }
+            }
+          }
+        }
+      },
+      "show_latest_news": {
+        "type": "Boolean",
+        "config": {
+          "label": "Show Latest News",
+          "default_value": false,
+          "placeholder_true": "true",
+          "placeholder_false": "false"
+        }
+      },
+      "latest_news_title": {
+        "type": "Text",
+        "config": {
+          "label": "Latest News Title",
+          "placeholder": ""
+        }
+      },
+      "additional_news_items": {
+        "type": "Group",
+        "config": {
+          "label": "Additional News Items",
+          "repeat": true,
+          "fields": {
+            "item": {
+              "type": "Link",
+              "config": {
+                "label": "Item",
+                "select": "document",
+                "customtypes": ["books", "research"]
+              }
+            }
+          }
+        }
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "spacer": {
+              "type": "SharedSlice"
+            },
+            "social_cta": {
+              "type": "SharedSlice"
+            },
+            "rich_text": {
+              "type": "SharedSlice"
+            },
+            "full_width_callout": {
+              "type": "SharedSlice"
+            },
+            "callout_block": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    },
+    "SEO & Metadata": {
+      "meta_description": {
+        "config": {
+          "label": "Meta Description",
+          "placeholder": "A brief summary of the page"
+        },
+        "type": "Text"
+      },
+      "meta_title": {
+        "config": {
+          "label": "Meta Title",
+          "placeholder": "A title of the page used for social media and search engines"
+        },
+        "type": "Text"
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "blockquote",
+  "type": "SharedSlice",
+  "name": "Blockquote",
+  "description": "Blockquote",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "quote_text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Quote text",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "citation": {
+          "type": "Text",
+          "config": {
+            "label": "Citation",
+            "placeholder": ""
+          }
+        },
+        "fine_print": {
+          "type": "Text",
+          "config": {
+            "label": "Fine Print",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

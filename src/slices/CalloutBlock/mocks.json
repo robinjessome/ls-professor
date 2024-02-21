@@ -1,0 +1,176 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"image": {
+				"origin": {
+					"id": "main",
+					"url": "https://images.unsplash.com/photo-1576662712957-9c79ae1280f8",
+					"width": 3456,
+					"height": 3456
+				},
+				"url": "https://images.unsplash.com/photo-1576662712957-9c79ae1280f8",
+				"width": 3456,
+				"height": 3456,
+				"edit": {
+					"zoom": 1,
+					"crop": {
+						"x": 0,
+						"y": 0
+					},
+					"background": "transparent"
+				},
+				"credits": null,
+				"alt": null,
+				"__TYPE__": "ImageContent",
+				"thumbnails": {
+					"mobile": {
+						"origin": {
+							"id": "mobile",
+							"url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+							"width": 3882,
+							"height": 2584
+						},
+						"url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?rect=0%2C321%2C3882%2C1941&w=800&h=400",
+						"width": 800,
+						"height": 400,
+						"edit": {
+							"zoom": 1,
+							"crop": {
+								"x": 0,
+								"y": 321
+							},
+							"background": "transparent"
+						},
+						"credits": null,
+						"alt": null
+					}
+				}
+			},
+			"fullWidth": {
+				"__TYPE__": "BooleanContent",
+				"value": false
+			},
+			"callToActionLabel": {
+				"__TYPE__": "FieldContent",
+				"value": "heat",
+				"type": "Text"
+			},
+			"callToActionLink": {
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "https://slicemachine.dev"
+				}
+			},
+			"backgroundColour": {
+				"__TYPE__": "FieldContent",
+				"value": "Primary - Light",
+				"type": "Select"
+			}
+		},
+		"items": []
+	},
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "imageRight",
+		"primary": {
+			"eyebrowHeadline": {
+				"__TYPE__": "FieldContent",
+				"value": "main",
+				"type": "Text"
+			},
+			"title": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading1",
+						"content": {
+							"text": "Order"
+						}
+					}
+				]
+			},
+			"description": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Ullamco ut ea incididunt aliqua ipsum aliquip dolor ipsum consectetur magna Lorem cillum eiusmod enim est."
+						}
+					}
+				]
+			},
+			"image": {
+				"__TYPE__": "ImageContent",
+				"origin": {
+					"id": "main",
+					"url": "https://images.unsplash.com/photo-1589321578146-4c1ba445cc88",
+					"width": 3168,
+					"height": 4752
+				},
+				"url": "https://images.unsplash.com/photo-1589321578146-4c1ba445cc88",
+				"width": 3168,
+				"height": 4752,
+				"edit": {
+					"zoom": 1,
+					"crop": {
+						"x": 0,
+						"y": 0
+					},
+					"background": "transparent"
+				},
+				"thumbnails": {
+					"mobile": {
+						"origin": {
+							"id": "mobile",
+							"url": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853",
+							"width": 5243,
+							"height": 3495
+						},
+						"url": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?rect=0%2C437%2C5243%2C2622&w=800&h=400",
+						"width": 800,
+						"height": 400,
+						"edit": {
+							"zoom": 1,
+							"crop": {
+								"x": 0,
+								"y": 437
+							},
+							"background": "transparent"
+						}
+					}
+				}
+			},
+			"callToActionLabel": {
+				"__TYPE__": "FieldContent",
+				"value": "wear",
+				"type": "Text"
+			},
+			"callToActionLink": {
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "http://twitter.com"
+				}
+			},
+			"backgroundColour": {
+				"__TYPE__": "FieldContent",
+				"value": "None",
+				"type": "Select"
+			},
+			"fullWidth": {
+				"__TYPE__": "BooleanContent",
+				"value": true
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": []
+			}
+		]
+	}
+]
